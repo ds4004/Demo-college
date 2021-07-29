@@ -1,0 +1,155 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navlist{
+   width: 100%;
+   position: fixed;
+   padding: 5px 10%;
+   background-color: #110e2bbb;
+   /* height: 70px; */
+  z-index: 1;
+}
+
+.navlist ul{
+   display: flex;
+   list-style: none;
+}
+.navlist ul li:first-child{
+   flex: 1;
+   color: #ffffff;
+}
+.navlist ul li h4{
+   font-family: serif;
+}
+.navlist ul a{
+   display: block;
+   margin-left: 20px;
+   font-family: "Century Gothic", sans-serif;
+   font-size: 0.9rem;
+   color: white;
+   text-decoration: none;
+}
+.navlist ul a:hover{
+   color: #ff8800;
+}
+
+
+
+
+
+
+nav ul li a
+{
+    color: white;
+    display: block;
+    transition: .5s;
+}
+
+nav ul ul
+{
+    position: absolute;
+    top: 28px;
+    background-color: #110e2bbb;
+    visibility: hidden;
+    flex-direction: column;
+}
+
+nav ul li:hover > ul
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li
+{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    margin-right: 5px;
+    /* margin: 2px; */
+}
+
+
+.main-box{
+   width: 100%;
+   height: 0vh;
+   background-image: url(res2.jpg);
+   background-position: center;
+   background-attachment: fixed;
+   background-origin: content-box;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 31.5vh;
+   position: absolute;
+   
+   opacity: 0.9;
+}
+
+.main-box h1{
+   word-spacing: 18px;
+   margin-top: -150px;
+   font-family: serif;
+   color:black;
+   font-size: 60px;
+}
+
+.box1{
+position: relative;
+top: 226px;
+background-color: #e6e6fa;
+opacity: 0.8;
+height: 700px;
+width: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 80px 50px 0 90px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.box1 button{
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 1px solid #ff8800;
+   color: black;
+}
+.box1 button:hover{
+   background: #ff8800;
+}
+
+ .box
+{
+position: relative;
+width: 700px;
+height: 180px;
+background: #ff0;
+float: left;
+top: 30px;
+left: -830px;
+padding-top: 10px;
+box-sizing: border-box;
+overflow: hidden;
+border-radius: 9px;
+font-size: 20px;
+}
+
+.box:nth-child(1) 
+{
+background: steelblue;
+}

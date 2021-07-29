@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="PROJECT.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NEC-GUJARAT</title>
+
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <nav class="navlist">
+      <ul>
+         <li><h4>NEC.</h4></li>
+         <li><a href="PROJECT.HTML">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="material.html">Material</a></li>
+         <li><a href="">Others</a>
+            <ul>
+                <li><a href="Admission.html">Admission</a></li>
+                <li><a href="calendar.html">Holiday List</a></li>
+            </ul>
+        </li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+   </nav>
+   <div class="main-box">
+      <h1>NATIONAL ENGINEERING COLLEGE</h1>
+      <p>India's One Of The Best Engineering College</p>
+      <a href="enroll.html" id="enroll"><button> ENROLL NOW</button></a>
+   </div>
+   <div class="container">
+      <h2>FACILITIES</h2>
+      <div class="row">
+         <div class="column">
+         <a href=""><img src="campus.jpeg" alt=""></a>
+         <a href="">CAMPUS</a>
+         </div>
+         <div class="column">
+            <a href=""><img src="playground.jpeg" alt=""></a>
+            <a href="">PLAYGROUND</a>
+         </div>
+         <div class="column">
+            <a href=""><img src="library.jpeg" alt=""></a>
+            <a href="">LIBRARY</a>
+         </div>
+      </div>
+<br><br>
+         <div class="row">
+         <div class="column">
+         <a href=""><img src="gym.jpeg" alt=""></a>
+         <a href="">GYM</a>
+         </div>
+         <div class="column">
+            <a href=""><img src="canteen.jpeg" alt=""></a>
+            <a href="">CANTEEN</a>
+         </div>
+         <div class="column">
+            <a href=""><img src="auditorium.jpeg" alt=""></a>
+            <a href="">AUDITORIUM</a>
+         </div>
+      </div>
+
+  </div>
+
+ <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<footer>
+         <b><center>CONTACT US</center></b>
+         <div class="row">
+  <div class="side">
+  <center><p> ADMIN OFFICE: 9876543210</p>
+              <p>FEE COUNTER :  2468956222</p>
+              <p>ACADEMIC SECTION: 333344455</p></center><br>
+   
+   </div>
+  <div class="main">
+  <center><b>ADDRESS</b></center>
+  <center><p> V P Road ,next to CONGRESS HOUSE,</p>
+          <p>GRANT ROAD(east),vADODARA, GUJARAT,INDIA</p><center>
+          </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+
+
+</html>
+

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+ }
+
+.navlist{
+    width: 100%;
+    /* position: fixed; */
+    padding: 5px 10%;
+    background-color: #110e2bbb;
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+}
+.navlist ul li:first-child{
+    flex: 1;
+    color: #ffffff;
+}
+.navlist ul li h4{
+    font-family: serif;
+}
+.navlist ul a{
+    display: block;
+    margin-left: 20px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+}
+.navlist ul a:hover{
+    color: #ff8800;
+}
+
+
+nav ul li a
+{
+    color: white;
+    display: block;
+    transition: .0s;
+}
+
+nav ul ul
+{
+    position: absolute;
+    top: 28px;
+    background-color: #110e2bbb;
+    visibility: hidden;
+    flex-direction: column;
+}
+
+nav ul li:hover > ul
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+nav ul ul li
+{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    margin-right: 20px;
+    /* margin: 2px; */
+}
+
+
+main{
+    padding: 50px;
+    color: #06041dbb;
+    background-color: powderblue;
+}
+
+main ol{
+    padding: 10px 0px 10px 30px;
+}
+
+.dif{
+    font-size: larger;
+}
+main ol ul{
+    padding: 10px 0px 10px 10px;
+}
+
+main ol ul li{
+    list-style:disc;
+    line-height: 180%;
+}
